@@ -609,7 +609,7 @@ do
 		_G.FarmingMode = value
 	end)
     Toggle(Tabs.Lobby, "Disable Notify Gui", "DisableNotify")
-    Tabs.Lobby:AddSection('ðŸ’¸ Selling')
+    Tabs.Lobby:AddSection('YoxanXHub’¸ Selling')
     Dropdown(Tabs.Lobby, "Select Rarity", d, Settings.Rarities, function(value)
 		Settings.Rarities = value
 		_G.Rarities = value
