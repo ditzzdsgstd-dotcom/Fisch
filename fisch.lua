@@ -517,8 +517,7 @@ do
 		ImageButton.BorderSizePixel = 0
 		ImageButton.Position = UDim2.new(-0.0250000004, 0, -0.027777778, 0)
 		ImageButton.Size = UDim2.new(1.1, 0, 1.1, 0)
-		ImageButton.Image = "rbxassetid://103816145608946"
-
+		ImageButton.Image = "rbxassetid://6031280882"
 		ImageButton.MouseButton1Click:Connect(function()
 			game:GetService("Players").LocalPlayer.PlayerGui["Roblox/Fluent"]:GetChildren()[2].Visible = not game:GetService("Players").LocalPlayer.PlayerGui["Roblox/Fluent"]:GetChildren()[2].Visible
 		end)
@@ -640,7 +639,7 @@ do
     Toggle(Tabs.ItemAndQuest, "Auto Aurora Rod", "AAR")
     Toggle(Tabs.ItemAndQuest, "Auto Kraken Rod", "AKR")
     Toggle(Tabs.ItemAndQuest, "Auto Poseidon Rod", "APR")
-    Tabs.ItemAndQuest:AddSection('ðŸŒ Second Sea')
+    Tabs.ItemAndQuest:AddSection('YoxanXHub Second Sea')
     Toggle(Tabs.ItemAndQuest, "Auto Complete Second Sea","AutoCompleteSecondSea")
     Toggle(Tabs.Miscellaneous, "Enabled WhiteScreen","WhiteScreen")
     Toggle(Tabs.Miscellaneous, "Enabled Infinite Oxygen","INFOXY")
