@@ -585,7 +585,7 @@ do
 		Content = "Loading...",
 		Duration = 5
 	})
-    Tabs.Lobby:AddSection('ðŸŽ£ Faming')
+    Tabs.Lobby:AddSection('YoxanXHub Faming')
     Toggle(Tabs.Lobby, "Auto Fishing", "ATF")
     Toggle(Tabs.Lobby, "Enabled Fishing in Water", "EFW")
     Toggle(Tabs.Lobby, "Enabled Teleport to Saved Position", "TSP")
@@ -604,7 +604,7 @@ do
         _G.PositionFarm = cf
         saveConfig()
     end})
-    Tabs.Lobby:AddSection('âš™ï¸ Settings')
+    Tabs.Lobby:AddSection('YoxanXhub Settings')
     Dropdown(Tabs.Lobby, "Reel Method", {"Normal","Fast","Safe Mode"}, Settings.FarmingMode, function(value)
 		Settings.FarmingMode = value
 		_G.FarmingMode = value
@@ -632,9 +632,9 @@ do
 		end
 	})
     Toggle(Tabs.Lobby, "Enabled Sell", "EnabledSelling")
-    Tabs.ItemAndQuest:AddSection('ðŸ—ºï¸ Treasure Map (Full Option)')
+    Tabs.ItemAndQuest:AddSection('YoxanXhub Treasure Map (Full Option)')
     Toggle(Tabs.ItemAndQuest, "Auto Treasure Map", "TreasureMap")
-    Tabs.ItemAndQuest:AddSection('ðŸŸ Rod ')
+    Tabs.ItemAndQuest:AddSection('YoxanXHub Rod ')
     Toggle(Tabs.ItemAndQuest, "Auto Trident Rod", "ATR")
     Toggle(Tabs.ItemAndQuest, "Auto Destiny Rod", "ADR")
     Toggle(Tabs.ItemAndQuest, "Auto Aurora Rod", "AAR")
