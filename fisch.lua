@@ -484,13 +484,7 @@ func['Fly'] = (function()
     end
 end)
 
-
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Yenixs/GUI/refs/heads/main/FLUENT"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
-
-do 
-	if Client.PlayerGui:FindFirstChild("Roblox/Fluent") then
+	if Client.PlayerGui:FindFirstChild("Roblox/Orion") then
 
 		local ScreenGui = Instance.new("ScreenGui")
 		local Frame = Instance.new("Frame")
